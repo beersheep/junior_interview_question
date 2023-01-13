@@ -15,7 +15,7 @@ class PriceCalculationTest < Minitest::Test
   def test_is_free_shipment
     order = PriceCalculation.new('OB2300')
 
-    refute order.free_shipment?
+    assert_equal false, order.free_shipment?
   end
 
   def test_shipment_fee_being_added_to_the_total_price
