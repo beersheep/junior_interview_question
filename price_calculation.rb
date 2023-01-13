@@ -7,7 +7,7 @@ require './models/order.rb'
 # 2. 若消費期間有超過兩個優惠活動，取最優者折扣 
 # 3. 運費計算在優惠折抵之後
 #
-# Please implmenet the following methods 
+# Please implemenet the following methods.
 # Additional helper methods are recommended.
 
 class PriceCalculation
